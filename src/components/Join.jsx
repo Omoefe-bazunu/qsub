@@ -39,11 +39,11 @@ export const Join = () => {
             onClick={handleToggle}
             aria-expanded={isExpanded}
             aria-controls="vendor-privileges"
-            className="text-secondary w-fit font-bold underline focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-offset-2"
+            className="text-white w-fit bg-primary font-bold px-4 py-1 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
           >
             {isExpanded
-              ? "Click to Close Privileges"
-              : "Click to View Vendors Privileges"}
+              ? "Click to Close Privileges -"
+              : "Click to View Vendors Privileges +"}
           </button>
           <div
             id="vendor-privileges"
