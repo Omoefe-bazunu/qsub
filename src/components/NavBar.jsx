@@ -56,7 +56,8 @@ export const NavBar = () => {
           </li>
           <li>
             <a
-              href="#join"
+              href="https://www.qsub.com.ng"
+              target="_blank"
               className="text-white bg-secondary rounded-full px-6 py-2 focus:outline-none focus:ring-2 focus:ring-white"
             >
               Join Us
@@ -114,7 +115,8 @@ export const NavBar = () => {
             </li>
             <li>
               <a
-                href="#join"
+                href="https://www.qsub.com.ng"
+                target="_blank"
                 onClick={toggleMenu}
                 className="block text-center text-white bg-secondary rounded-full px-4 py-1 focus:outline-none focus:ring-2 focus:ring-white"
               >

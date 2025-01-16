@@ -69,7 +69,8 @@ export const Join = () => {
 
           {/* Call to Action Button */}
           <a
-            href="#join"
+            href="https://www.qsub.com.ng"
+            target="_blank"
             className="text-white w-fit bg-secondary px-6 py-2 rounded-full focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 mx-auto lg:mx-0"
             aria-label="Join Us to explore subscription services"
           >

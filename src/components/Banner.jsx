@@ -23,7 +23,8 @@ export const Banner = () => {
             more...
           </p>
           <a
-            href="#join"
+            href="https://www.qsub.com.ng"
+            target="_blank"
             className="text-white mb-12 lg:mb-0 lg:mx-0 mx-auto bg-secondary px-6 py-2 rounded-full focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2"
             aria-label="Join Us to explore subscription services"
           >
