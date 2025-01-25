@@ -31,12 +31,15 @@ export const About = () => {
           </p>
         </article>
 
-        {/* Image */}
-        <img
-          src="./ABT 1.png"
-          alt="Overview of VTU services for airtime, internet, and bill payments"
-          className="h-48 lg:h-62 w-auto object-cover rounded-lg shadow-md"
-        />
+        {/* YouTube Embed */}
+        <iframe
+          className="h-48 lg:h-62 w-auto rounded-lg shadow-md"
+          src="https://www.youtube.com/embed/u8yjBqzH52A"
+          title="About Us Video"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
       </div>
     </section>
   );
